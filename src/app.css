@@ -1,0 +1,60 @@
+body{
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#content-wrap{
+  display: none;
+}
+
+#message_list{
+  height: 60%;
+}
+
+.msg-area{
+  border-radius: 4px;
+}
+#escribir{
+  bottom: 0px; 
+  position: absolute;
+}
+
+.msg{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.salir:hover{
+  cursor: pointer;
+}
+
+.enlace-salir{
+  color:#027f43;
+}
+
+#div-login{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#input-mensaje{
+  width: 100%;
+}
+
+
+#buttonenviaMsj{
+  margin-left: 20%;
+  background-color: #027f43;
+  border-radius: 0%;
+}
+
+#usuariosconetadoss{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
